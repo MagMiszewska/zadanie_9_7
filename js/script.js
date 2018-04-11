@@ -43,7 +43,9 @@ function setGameElements() {
             break;
         case 'ended':
             newGameBtn.innerText = 'Jeszcze raz';
+            break;
         case 'notStarted':
+            break;
         default:
             newGameElem.style.display = 'block';
             pickElem.style.display = 'none';
